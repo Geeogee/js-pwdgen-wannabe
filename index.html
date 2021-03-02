@@ -11,12 +11,13 @@
     <div>
         <h1 id="passowrd-field"></h1>
     </div>
-    
+
     <script>
         var username = prompt("Inserisci il tuo nome: ");
         var surname = prompt("Inserisci il tuo cognome: ");
         var favColor = prompt("Inserisci il tuo colore preferito: ");
         console.log(username, surname, favColor);
+        
         var passGen = username + surname + favColor + "19";
         document.getElementById("passowrd-field").innerHTML = passGen;
 
